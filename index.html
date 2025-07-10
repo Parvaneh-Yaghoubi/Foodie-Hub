@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Chau+Philomene+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">    
+    <link href="images/favicon.png" rel="icon">
+    <link href="custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="images/logo12.png" alt="Logo" width="40" height="40" class="d-inline-block">
+                <span class="fw-bold fs-5 mt-2"> Foodie Hub</span>
+            </a>
+
+            <button class="navbar-toggler">
+                <span class="navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link"><i class="fa-solid fa-utensils"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#restaurants" class="nav-link"><i class="fa-solid fa-house"></i> Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><i class="fa-solid fa-people-group"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><i class="fa-solid fa-headset"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+        <h1 class="mb-4">Welcome to Foodie Hub - Order your favorite meals instantly!</h1>
+        <a href="#order" class="btn btn-lg mt-4" style="background-color: #f4bac8;">Order Now!</a>
+    </div>
+    </section>
+
+
+
+    <!-- Restaurant Lists-->
+    <section id="restaurants" class="py-5" style="background-color: rgb(250, 237, 200);">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Restaurants</h2>
+            <div class="row g-4">
+
+                <!-- Restaurant Card -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm restaurant-card border border-2 border-secondary rounded-3">
+                        <div class="zoom-wrapper">
+                        <img src="images/R1.jpg" class="card-img-top custom-img" alt="Restaurant 1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Pizza Palace</h5>
+                            <p class="card-text">Delicious pizzas with fresh ingredients.</p>
+                            <div class="mt-auto">
+                                <p class="text-muted mb-2"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Downtown, New York</p>
+                                <a href="#menu" class="btn btn-dark btn-sm w-100">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm restaurant-card border border-2 border-secondary rounded-3">
+                        <div class="zoom-wrapper">
+                        <img src="images/R2.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Sushi World</h5>
+                            <p class="card-text">Authentic Japanese sushi and sashimi.</p>
+                            <div class="mt-auto">
+                                <p class="text-muted mb-2"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Downtown, New York</p>
+                                <a href="#menu" class="btn btn-dark btn-sm w-100">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm restaurant-card border border-2 border-secondary rounded-3">
+                        <div class="zoom-wrapper">
+                        <img src="images/R3.jpg" class="card-img-top custom-img" alt="Restaurant 3">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">High-end Japanese restaurant</h5>
+                            <p class="card-text">Offers an elevated dining experience with premium ingredients.</p>
+                            <div class="mt-auto">
+                                <p class="text-muted mb-2"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Downtown, New York</p>
+                                <a href="#menu" class="btn btn-dark btn-sm w-100">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm restaurant-card border border-2 border-secondary rounded-3">
+                        <div class="zoom-wrapper">
+                        <img src="images/R4.jpg" class="card-img-top custom-img" alt="Restaurant 4">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Vegan Delight</h5>
+                            <p class="card-text">Healthy and delicious vegan dishes.</p>
+                            <div class="mt-auto">
+                                <p class="text-muted mb-2"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Downtown, New York</p>
+                                <a href="#menu" class="btn btn-dark btn-sm w-100">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm restaurant-card border border-2 border-secondary rounded-3">
+                        <div class="zoom-wrapper">
+                        <img src="images/R5.jpg" class="card-img-top custom-img" alt="Restaurant 5">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">ALI BARBOUR'S CAVE RESTAURANT</h5>
+                            <p class="card-text">Set inside an ancient coral cove and lit by warm candlelight.</p>
+                            <div class="mt-auto">
+                                <p class="text-muted mb-2"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Downtown, New York</p>
+                                <a href="#menu" class="btn btn-dark btn-sm w-100">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100 shadow-sm restaurant-card border border-2 border-secondary rounded-3">
+                        <div class="zoom-wrapper">
+                        <img src="images/R6.jpg" class="card-img-top custom-img" alt="Restaurant 6">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Ithaa Undersea Restaurant</h5>
+                            <p class="card-text">Offers a panoramic view of the underwater world.</p>
+                            <div class="mt-auto">
+                                <p class="text-muted mb-2"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Downtown, New York</p>
+                                <a href="#menu" class="btn btn-dark btn-sm w-100">View Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Restaurant Menu Section-->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Restaurant Menu</h2>
+            <div class="row g-4">
+    
+                <!-- Menu Item 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f1.jpg" class="card-img-top custom-img" alt="Restaurant 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text mb-3">It is roundish in shape with a raised edge (the cornicione) and seasoned with hand-crushed peeled tomatoes.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 10.99</p>
+                                <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Menu Item 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f2.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Farfalle Pasta</h5>
+                            <p class="card-text mb-3">Farfalle, also known as bow tie or butterfly pasta, is a type of pasta with a distinctive shape.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 12.49</p>
+                                <a href="#restaurants" class="btn btn-dark btn-sm bg-danger mt-auto w-100">Unavailable</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Menu Item 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f3.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Fast Food Roll</h5>
+                            <p class="card-text mb-3">Plate with spring rolls with vegetables, Asian food.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 9.99</p>
+                                <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Menu Item 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f4.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Okonomiyaki</h5>
+                            <p class="card-text mb-3">Okonomiyaki dish served with garnish on plate, set on wooden table with chop sticks in background.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 20.75</p>
+                                <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Order Form Section -->
+    <section id="order" class="py-5" style="background-color: rgb(250, 237, 200);">
+        <div class="container">
+            <h2 class="text-center mb-4">Place Your Order</h2>
+    
+            <form action="#" method="post">
+                <div class="row g-4">
+                    <!-- Customer Name -->
+                    <div class="col-12 col-md-6">
+                        <label for="customerName" class="form-label">Customer Name</label>
+                        <input type="text" class="form-control" id="customerName" placeholder="Enter your name" required>
+                    </div>
+    
+                    <!-- Phone Number -->
+                    <div class="col-12 col-md-6">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890" required>
+                    </div>
+    
+                    <!-- Select Restaurant -->
+                    <div class="col-12 col-md-6">
+                        <label for="restaurantSelect" class="form-label">Select Restaurant</label>
+                        <select class="form-select" id="restaurantSelect" required>
+                            <option value="">Choose...</option>
+                            <option value="Pizza Palace">Pizza Palace</option>
+                            <option value="Sushi House">Sushi House</option>
+                            <option value="High-end Japanese Restaurant">High-end Japanese Restaurant</option>
+                            <option value="Vegan Delight">Vegan Delight</option>
+                            <option value="ALI BARBOUR'S CAVE RESTAURANT">ALI BARBOUR'S CAVE RESTAURANT</option>
+                            <option value="Ithaa Undersea Restaurant">Ithaa Undersea Restaurant</option>
+                        </select>
+                    </div>
+    
+                    <!-- Menu Items (Checkboxes + Qty) -->
+                    <div class="col-12 col-md-6">
+                        <label class="form-label">Menu Items</label>
+    
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item1">
+                            <label class="form-check-label me-auto" for="item1">Margherita Pizza</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+    
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item2">
+                            <label class="form-check-label me-auto" for="item2">Farfalle Pasta</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+    
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item3">
+                            <label class="form-check-label me-auto" for="item3">Fast Food Roll</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item3">
+                            <label class="form-check-label me-auto" for="item3">Okonomiyaki</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+    
+                    </div>
+
+                </div>
+        </div>
+    
+        <!-- Submit Button -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn px-4 bg-dark text-light">Submit Order</button>
+        </div>
+        </form>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">About Foodie Hub</h2>
+            <div class="row align-items-center">
+
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="images/R6.jpg" alt="Foodie Hub about image" class="img-fluid rounded shadow">
+                </div>
+    
+                <div class="col-md-6">
+                    <p class="lead">
+                        Foodie Hub is your go-to platform for discovering local restaurants and ordering your favorite meals
+                        online. With a focus on convenience, variety, and quality, we connect food lovers to the best
+                        eateries in town.
+                    </p>
+                    <p>
+                        Whether you're craving pizza, sushi, vegan delights, or anything in between, Foodie Hub offers a
+                        seamless ordering experience — all in one place and optimized for all devices.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section / Footer -->
+    <section id="contact">
+        <footer class="bg-dark text-light py-5">
+            <div class="container">
+                <div class="row align-items-start text-center text-md-start g-4">
+    
+                    <!-- Banner -->
+                    <div class="col-md-4 d-flex flex-column justify-content-start align-items-center align-items-md-start">
+                        <div class="d-flex align-items-start">
+                            <span class="fs-5 fw-bold mb-1 brand-name" style="color: #f4bac8;">Foodie Hub</span>
+                        </div>
+                        <p class="footer-note">Order your favorite meals instantly!</p>
+                    </div>
+    
+                    <!-- Contact Info -->
+                    <div class="col-md-4 d-flex flex-column justify-content-start align-items-center align-items-md-start">
+                        <h5 style="color: #f4bac8;">Contact Us</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>Email: yourmeal@foodiehub.org</li>
+                            <li>Phone: +1 234 567 890</li>
+                            <li>Address: 77 Food Street, Garnish Town</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Social Media Icons -->
+                    <div class="col-md-4 d-flex flex-column justify-content-start align-items-center align-items-md-start">
+                        <h5 style="color: #f4bac8;">Follow Us</h5>
+                        <div class="d-flex justify-content-center justify-content-md-end gap-3 mt-2">
+                            <a href="#" class="text-light fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-light fs-4"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="text-light fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-light fs-4"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Copyright -->
+                <hr class="border-top border-light opacity-25 my-4">
+                
+                <div class="row mt-4">
+                    <div class="col-md-12 text-center text-md-start">
+                        <small>© 2025 Foodie Hub. All rights reserved.</small>
+                    </div>
+                    <div class="col-md-12 text-center text-md-start">
+                        <p class="mb-0">Made with ❤ by
+                            <a href="https://parvaneh-yaghoubi.github.io/Portfolio/" class="text-decoration-none" style="color: #ec728e;">Parvaneh</a>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
