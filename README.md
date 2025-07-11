@@ -5,7 +5,7 @@
 
 ## Overview
 
-**Foodie Hub** is a fully responsive, single-page website designed as a public food ordering platform UI. Built entirely using **Bootstrap 5** and custom CSS, this project demonstrates a clean, accessible frontend without any JavaScript. Users can explore restaurants, view menus, and simulate placing orders through a user-friendly interface optimized for all devices.
+**Foodie Hub** is a fully responsive, single-page website designed as a public food ordering platform UI. Built entirely using **Bootstrap 5** and **custom CSS**, this project demonstrates a clean, accessible frontend without any JavaScript. Users can explore restaurants, view menus, and simulate placing orders through a user-friendly interface optimized for all devices.
 
 
 ## Live Demo
@@ -16,6 +16,7 @@
 
 - Clean and modern **user interface (UI)** designed for a seamless food ordering experience
 - **Responsive design** (Desktop, Tablet, Mobile)
+- **Carousel-based menu** on mobile devices (3-second auto-slide)
 - Built with **Bootstrap 5** and Bootstrap Icons via CDN
 - No JavaScript – fully functional using only **HTML & CSS**
 - **Single-page** structure with anchor-based navigation
