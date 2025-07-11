@@ -75,4 +75,10 @@ html {
 }
 
 
+.menu-card {
+    height: 100%;
+    min-height: 425px; 
+    display: flex;
+    flex-direction: column;
+}
 
